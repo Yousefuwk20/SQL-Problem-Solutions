@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/sql-avg-review-ratings
--- Problem Difficulty: Easy
 
 SELECT 
     (EXTRACT (MONTH FROM submit_date)) AS mth,

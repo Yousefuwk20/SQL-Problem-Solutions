@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/completed-trades
--- Problem Difficulty: Easy
 
 SELECT 
     u.city,

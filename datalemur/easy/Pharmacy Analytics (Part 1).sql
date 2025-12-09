@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/top-profitable-drugs
--- Problem Difficulty: Easy
 
 SELECT 
     drug,

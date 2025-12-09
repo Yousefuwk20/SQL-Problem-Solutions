@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/laptop-mobile-viewership
--- Problem Difficulty: Easy
 
 WITH count_views AS(
 SELECT 

@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/sql-page-with-no-likes
--- Problem Difficulty: Easy
 
 SELECT p.page_id
 FROM pages p

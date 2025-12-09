@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/final-account-balance
--- Problem Difficulty: Easy
 
 SELECT 
     account_id,

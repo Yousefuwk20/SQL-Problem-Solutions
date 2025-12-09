@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/sql-ibm-db2-product-analytics
--- Problem Difficulty: Easy
 
 WITH emp AS(
 SELECT 

@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/click-through-rate
--- Problem Difficulty: Easy
 
 WITH stats AS(
 SELECT

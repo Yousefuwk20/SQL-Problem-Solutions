@@ -1,6 +1,5 @@
 -- Problem link: https://datalemur.com/questions/sql-histogram-tweets
--- Problem Difficulty: Easy
--- Problem Topic: SQL Aggregation, Grouping
+
 WITH user_tweet_counts AS (
 SELECT 
       user_id,

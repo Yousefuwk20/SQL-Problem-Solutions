@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/duplicate-job-listings
--- Problem Difficulty: Easy
 
 WITH companies AS(
     SELECT

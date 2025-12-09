@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/non-profitable-drugs
--- Problem Difficulty: Easy
 
 SELECT 
     manufacturer,

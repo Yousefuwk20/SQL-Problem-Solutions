@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/sql-well-paid-employees
--- Problem Difficulty: Easy
 
 WITH managers AS(
 SELECT * 

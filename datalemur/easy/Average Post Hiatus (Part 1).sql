@@ -1,5 +1,5 @@
 -- Problem link: https://datalemur.com/questions/sql-average-post-hiatus-1
--- Problem Difficulty: Easy
+
 WITH diff_date AS(
 SELECT 
   user_id,

@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/teams-power-users
--- Problem Difficulty: Easy
 
 SELECT sender_id, COUNT(*) AS message_count
 FROM messages

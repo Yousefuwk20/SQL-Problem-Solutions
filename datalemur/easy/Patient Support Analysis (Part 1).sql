@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/frequent-callers
--- Problem Difficulty: Easy
 
 WITH cnt AS(
     SELECT policy_holder_id, COUNT(case_id) AS num_of_calls

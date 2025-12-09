@@ -1,5 +1,4 @@
 -- Problem link: https://datalemur.com/questions/matching-skills
--- Problem Difficulty: Easy
 
 WITH arr_skills AS(
 SELECT 
