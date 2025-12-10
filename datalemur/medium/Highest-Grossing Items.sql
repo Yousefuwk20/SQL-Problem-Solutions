@@ -1,3 +1,5 @@
+-- Problem link: https://datalemur.com/questions/sql-highest-grossing
+
 WITH ranked_spend AS (
     SELECT 
       category, 
