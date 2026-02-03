@@ -31,3 +31,13 @@ INNER JOIN low L
 ON L.ticker = H.ticker 
 AND L.Row_num = 1 
 AND H.Row_num = 1
+
+-- Another approach
+SELECT DISTINCT
+  ticker,
+  FIRST_VALUE(TO_CHAR(date, 'Mon-YYYY')) OVER (PARTITION BY ticker ORDER BY open DESC) AS highest_mth,
+  FIRST_VALUE(open) OVER (PARTITION BY ticker ORDER BY open DESC) AS highest_open,
+  FIRST_VALUE(TO_CHAR(date, 'Mon-YYYY')) OVER (PARTITION BY ticker ORDER BY open ASC) AS lowest_mth,
+  FIRST_VALUE(open) OVER (PARTITION BY ticker ORDER BY open ASC) AS lowest_open
+FROM stock_prices 
+ORDER BY ticker
