@@ -12,9 +12,9 @@ WHERE listen_time <= '2022-08-05'
 GROUP BY user_id, song_id
 )
 
-SELECT user_id, song_id, SUM(song_plays) AS song_plays
+SELECT user_id, song_id, SUM(song_plays) AS song_played
 FROM history
 GROUP BY user_id, song_id
-ORDER BY song_plays DESC;
+ORDER BY song_played DESC;
 
 
