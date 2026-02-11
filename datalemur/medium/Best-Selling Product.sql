@@ -1,13 +1,5 @@
 -- Problem link: https://datalemur.com/questions/best-selling-products
 
-
-
-
-
-
-
-
-
 WITH rnk AS(
   SELECT 
     RANK() OVER(
