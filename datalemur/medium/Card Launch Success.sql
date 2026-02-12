@@ -15,4 +15,3 @@ SELECT
   issued_amount
 FROM issue_ranking
 WHERE rnk = 1
-ORDER BY issued_amount DESC
