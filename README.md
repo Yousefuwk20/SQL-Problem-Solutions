@@ -2,15 +2,12 @@
 
 A collection of SQL solutions to various coding challenges from different platforms.
 
-## Structure
-
-- **datalemur/** - Solutions to DataLemur SQL challenges
-- **hackerrank/** - Solutions to HackerRank SQL challenges
-
-## Platforms
+## Platforms Links
 
 - [DataLemur](https://datalemur.com/)
 - [HackerRank](https://www.hackerrank.com/)
+- [LeetCode](https://leetcode.com/)
+- [StrataScratch](https://www.stratascratch.com/)
 
 ## About
 
